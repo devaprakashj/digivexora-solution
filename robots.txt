@@ -1,0 +1,7 @@
+# robots.txt for https://www.digivexora.in
+User-agent: *
+Allow: /
+Disallow: /submit_enquiry.php
+Disallow: /tools/
+
+Sitemap: https://www.digivexora.in/sitemap.xml
