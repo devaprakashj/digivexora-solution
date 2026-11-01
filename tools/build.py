@@ -17,7 +17,7 @@ import os
 from datetime import date
 
 # ------------------------------------------------------------------ settings
-DOMAIN = "https://www.digivexora.in"      # <- no trailing slash. Change to your real domain.
+DOMAIN = "https://digivexora.in"          # <- no trailing slash. Change to your real domain.
 EMAIL = "digivexorasolution@gmail.com"             # <- change to your real business email.
 BRAND = "Digivexora Solution"
 YEAR = date.today().year
