@@ -341,7 +341,7 @@ def header(current="", pre=""):
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="wrap header__inner">
-<a class="brand" href="{pre}index.html" aria-label="{e(BRAND)} home"><img src="{pre}assets/logo-600.png" width="600" height="431" alt="{e(BRAND)} logo"></a>
+<a class="brand" href="{pre}index.html" aria-label="{e(BRAND)} home"><img src="{pre}assets/logo-600.png" width="600" height="122" alt="{e(BRAND)} logo"></a>
 <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
 <nav class="nav" id="nav" aria-label="Main">
 {a("index.html", "Home")}
@@ -360,7 +360,7 @@ def footer(pre=""):
     return f'''<footer class="site-footer">
 <div class="wrap footer__grid">
 <div class="footer__brand">
-<a href="{pre}index.html" aria-label="{e(BRAND)} home"><img src="{pre}assets/logo-600.png" width="600" height="431" alt="{e(BRAND)} logo" loading="lazy"></a>
+<a href="{pre}index.html" aria-label="{e(BRAND)} home"><img src="{pre}assets/logo-600.png" width="600" height="122" alt="{e(BRAND)} logo" loading="lazy"></a>
 <p>Websites, search, ads, social media and creative work for businesses that want to grow online.</p>
 </div>
 <div>

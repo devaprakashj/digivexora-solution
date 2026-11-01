@@ -14,7 +14,7 @@ function respond(string $message, bool $success = false, int $status = 400): nev
        . '<title>' . $heading . ' | Digivexora Solution</title>'
        . '<link rel="icon" href="assets/favicon.ico"><link rel="stylesheet" href="style.css"></head><body>'
        . '<main><section class="band"><div class="wrap notice">'
-       . '<img src="assets/logo-600.png" width="600" height="431" alt="Digivexora Solution logo" style="height:90px;width:auto;margin-bottom:28px">'
+       . '<img src="assets/logo-600.png" width="600" height="122" alt="Digivexora Solution logo" style="height:90px;width:auto;margin-bottom:28px">'
        . '<h1>' . $heading . '</h1><p class="lead">' . $safe . '</p>'
        . '<div class="actions"><a class="btn btn--primary" href="' . ($success ? 'index.html' : 'contact.html') . '">'
        . ($success ? 'Back to the home page' : 'Back to the form') . '</a></div>'
